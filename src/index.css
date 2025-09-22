@@ -3,3 +3,6 @@
 body{
     background-color: rgb(246, 246, 246);
 }
+nav a.active{
+    color: rgb(70, 70, 254);
+}

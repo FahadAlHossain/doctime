@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Dr. Cameron Williamson",
+    "qualification": "MBBS, MD, General Medicine, DNB",
+    "hospital": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "regNo": "BD 12451254",
+    "availability": ["Sunday", "Monday", "Thursday"],
+    "fee": 273,
+    "experience": 12,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Sophia Rahman",
+    "qualification": "MBBS, FCPS (Gynecology)",
+    "hospital": "Dhaka Medical College Hospital, Dhaka",
+    "regNo": "BD 14567892",
+    "availability": ["Saturday", "Tuesday", "Wednesday"],
+    "fee": 350,
+    "experience": 15,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Arafat Hossain",
+    "qualification": "MBBS, MD (Cardiology)",
+    "hospital": "Bangabandhu Sheikh Mujib Medical University (BSMMU), Dhaka",
+    "regNo": "BD 11892564",
+    "availability": ["Sunday", "Tuesday", "Friday"],
+    "fee": 500,
+    "experience": 18,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Nusrat Jahan",
+    "qualification": "MBBS, MS (Orthopedics)",
+    "hospital": "Chittagong Medical College Hospital, Chattogram",
+    "regNo": "BD 13456789",
+    "availability": ["Monday", "Wednesday", "Thursday"],
+    "fee": 400,
+    "experience": 10,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Abdullah Karim",
+    "qualification": "MBBS, MD (Neurology)",
+    "hospital": "Rajshahi Medical College Hospital, Rajshahi",
+    "regNo": "BD 12654321",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "fee": 600,
+    "experience": 20,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Maria Akter",
+    "qualification": "MBBS, FCPS (Dermatology)",
+    "hospital": "Popular Diagnostic Centre, Dhaka",
+    "regNo": "BD 15987462",
+    "availability": ["Sunday", "Wednesday", "Friday"],
+    "fee": 320,
+    "experience": 8,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Hasan Mahmud",
+    "qualification": "MBBS, MS (Urology)",
+    "hospital": "Square Hospital, Dhaka",
+    "regNo": "BD 16547821",
+    "availability": ["Monday", "Thursday", "Saturday"],
+    "fee": 700,
+    "experience": 22,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Farhana Chowdhury",
+    "qualification": "MBBS, MD (Pediatrics)",
+    "hospital": "Apollo Hospitals, Dhaka",
+    "regNo": "BD 11234567",
+    "availability": ["Sunday", "Tuesday", "Thursday"],
+    "fee": 450,
+    "experience": 14,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Saifur Rahman",
+    "qualification": "MBBS, FCPS (ENT)",
+    "hospital": "United Hospital, Dhaka",
+    "regNo": "BD 12894561",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "fee": 380,
+    "experience": 9,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Tanvir Ahmed",
+    "qualification": "MBBS, MD (Oncology)",
+    "hospital": "National Institute of Cancer Research & Hospital, Dhaka",
+    "regNo": "BD 13547896",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "fee": 800,
+    "experience": 19,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Shirin Sultana",
+    "qualification": "MBBS, MS (Ophthalmology)",
+    "hospital": "Islamia Eye Hospital, Dhaka",
+    "regNo": "BD 12487951",
+    "availability": ["Sunday", "Monday", "Wednesday"],
+    "fee": 300,
+    "experience": 11,
+    "img": "../src/assets/doctor.png"
+  },
+  {
+    "name": "Dr. Imran Kabir",
+    "qualification": "MBBS, MD (Psychiatry)",
+    "hospital": "National Institute of Mental Health, Dhaka",
+    "regNo": "BD 13789542",
+    "availability": ["Monday", "Thursday", "Friday"],
+    "fee": 550,
+    "experience": 16,
+    "img": "../src/assets/doctor.png"
+  }
+]

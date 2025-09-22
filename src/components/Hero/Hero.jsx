@@ -3,7 +3,7 @@ import hero from "../../assets/banner-img-1.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div  className='mx-10 border-3 border-white rounded-2xl'>
       <div className="text-center w-[55%] mx-auto">
         <h1 className="text-5xl font-bold text-center mb-3 mt-20">
           Dependable Care, Backed by Trusted Professionals.
