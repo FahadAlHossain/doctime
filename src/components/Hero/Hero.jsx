@@ -3,12 +3,12 @@ import hero from "../../assets/banner-img-1.png";
 
 const Hero = () => {
   return (
-    <div  className='mx-10 border-3 border-white rounded-2xl'>
+    <div className="mx-10 border-3 border-white rounded-2xl">
       <div className="text-center w-[55%] mx-auto">
-        <h1 className="lg:text-5xl md:text-4xl font-bold text-3xl text-center mb-3 mt-20">
+        <h1 className="lg:text-5xl md:text-4xl font-bold text-3xl mb-3 mt-20">
           Dependable Care, Backed by Trusted Professionals.
         </h1>
-        <p className="lg:text-lg md:text-lg text-sm text-center">
+        <p className="lg:text-lg md:text-lg text-sm">
           Our platform connects you with verified, experienced doctors across
           various specialties — all at your convenience. Whether it's a routine
           checkup or urgent consultation, book appointments in minutes and

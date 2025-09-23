@@ -5,4 +5,5 @@ body{
 }
 nav a.active{
     color: rgb(70, 70, 254);
+    text-decoration: underline;
 }
