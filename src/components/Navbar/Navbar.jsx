@@ -27,32 +27,27 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-gray-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <NavLink to="/booking">My Bookings</NavLink>
               </li>
               <li>
-                <a>Item 3</a>
+                <NavLink to="/blogs">Blogs</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact Us</NavLink>
               </li>
             </ul>
           </div>
           <Link
             to="/"
-            className="flex items-center justify-center gap-2 text-3xl font-bold"
+            className="flex items-center justify-center gap-2 lg:text-3xl md:text-2xl text-lg font-bold"
           >
-            <img src={logo} className="h-12 w-12" alt="" />
+            <img src={logo} className="lg:h-12 md:h-10 h-7" alt="" />
             DocTime
           </Link>
         </div>
@@ -73,7 +68,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="text-white font-semibold bg-blue-500 p-3 rounded-4xl text-lg px-5">Emergency</a>
+          <a className="text-white font-semibold bg-blue-500 lg:p-3 md:p-3 p-2 rounded-4xl lg:text-lg md:text-lg text-sm lg:px-5 md:px-5 px-4">Emergency</a>
         </div>
       </div>
     </nav>
