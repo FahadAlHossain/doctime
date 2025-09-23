@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 
 const Doctors = () => {
   const doctorsData = useLoaderData();
@@ -20,7 +20,7 @@ const Doctors = () => {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 lg:container md:container w-[80%] mx-auto">
         {displayData.map((doc, idx) => (
-          <div key={idx} className="card bg-white w-full shadow-sm">
+          <div key={idx} className="card bg-white w-full shadow-sm rounded-3xl">
             <figure>
               <img className="w-[80%] mt-7" src={doc.img} alt="" />
             </figure>
@@ -37,13 +37,13 @@ const Doctors = () => {
                 </div>
               </h2>
               <p className="lg:text-lg md:text-lg text-sm">
-                {doc.qualification}
+                {doc.qualification[0]} {doc.qualification[1]}
               </p>
               <hr className="border-t-2 border-dashed border-slate-400" />
-              <p className="lg:text-lg md:text-lg text-sm">{doc.regNo}</p>
-              <button className="border-2 hover:bg-blue-500 hover:text-white border-blue-500 rounded-2xl p-2 text-blue-500 font-bold">
+              <p className="lg:text-lg md:text-lg text-sm">Reg No: {doc.regNo}</p>
+              <Link to={`/doctor/${doc.regNo}`} className="border-2 hover:bg-blue-500 hover:text-white border-blue-500 rounded-2xl p-2 text-blue-500 font-bold text-center">
                 View Details
-              </button>
+              </Link>
             </div>
           </div>
         ))}
