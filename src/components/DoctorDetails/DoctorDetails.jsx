@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useLoaderData } from "react-router";
-import doctorImg from "../assets/doctor-sample.png";
+import doctorImg from "../../assets/doctor-sample.png";
+import { BookingContext } from "../../context/BookingContext";
 
 const DoctorDetails = () => {
   const doctor = useLoaderData();
+  const {addBooking} = useContext(BookingContext);
+  // console.log(addBooking)
+
+  const handleBooking = () =>{
+      addBooking(doctor);
+      alert(`${doctor.name} added`);
+  }
   return (
     <div className="text-black">
       <div className="lg:container md:container w-[90%] mx-auto h-64 bg-white rounded-3xl my-8 flex items-center justify-center shadow-sm">
@@ -39,8 +47,8 @@ const DoctorDetails = () => {
           <div className="border-b-2 my-5 border-dashed border-slate-300 w-10/12 lg:w-[1080px]" />
           <div className="lg:flex md:flex lg:gap-4 md:gap-3 grid grid-cols-3 md:pr-3">
             <p className="font-bold lg:mb-5 mb-5">Availability </p>
-            {doctor.availability.map((e) => (
-              <div className="badge badge-soft p-3 bg-amber-100 border-amber-300 font-semibold text-amber-500 badge-warning">
+            {doctor.availability.map((e,id) => (
+              <div key={id} className="badge badge-soft p-3 bg-amber-100 border-amber-300 font-semibold text-amber-500 badge-warning">
                 {e}
               </div>
             ))}
@@ -75,7 +83,9 @@ const DoctorDetails = () => {
               today only. We appreciate your understanding and cooperation.
             </div>
             <div>
-                <button className="w-full bg-blue-500 text-white font-bold p-2 rounded-3xl lg:text-xl md:text-xl mt-8">Book Appointment Now</button>
+              <button onClick={handleBooking} className="w-full bg-blue-500 text-white font-bold p-2 rounded-3xl lg:text-xl md:text-xl mt-8 cursor-pointer">
+                Book Appointment Now
+              </button>
             </div>
           </div>
         </div>

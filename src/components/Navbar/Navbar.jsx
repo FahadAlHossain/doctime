@@ -52,17 +52,17 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-lg font-semibold">
+          <ul className="menu-horizontal px-1 text-lg font-semibold">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            <li className="px-4">
               <NavLink to='/booking'>My Bookings</NavLink>
             </li>
             <li>
               <NavLink to='/blogs'>Blogs</NavLink>
             </li>
-            <li>
+            <li className="px-4">
               <NavLink to='/contact'>Contact Us</NavLink>
             </li>
           </ul>
