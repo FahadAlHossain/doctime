@@ -63,7 +63,7 @@ const DoctorDetails = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white h-80 my-10 lg:container w-[90%] mx-auto rounded-3xl shadow-sm flex items-center justify-center mb-25">
+      <div className="bg-white h-fit py-6 my-10 lg:container w-[90%] mx-auto rounded-3xl shadow-sm flex items-center justify-center mb-25">
         <div className="w-[80%]">
           <div>
             <h1 className="text-center font-bold lg:text-3xl md:text-3xl text-2xl">
@@ -72,18 +72,18 @@ const DoctorDetails = () => {
             <div className="border-b-2 my-5 border-dashed border-slate-300"></div>
             <div className="flex justify-between">
               <p className="font-bold lg:text-lg md:text-lg">Availability</p>
-              <div className="badge badge-soft bg-green-200 font-bold border-green-400 p-3 badge-success lg:text-sm md:text-sm text-[11px]">
+              <div className="badge badge-soft bg-green-200 font-bold border-green-400 p-3 badge-success lg:text-sm md:text-sm text-[10px]">
                 Doctor Available Today
               </div>
             </div>
             <div className="border-b-2 my-5 border-slate-300"></div>
-            <div className="badge badge-soft lg:p-4 p-5 bg-amber-100 border-amber-300 font-semibold text-amber-500 badge-warning lg:text-lg md:text-sm text-[6px]">
+            <div className="badge badge-soft bg-amber-100 border-amber-300 font-semibold text-amber-500 badge-warning lg:text-lg md:text-sm h-fit text-[6px]">
               <div className="border-2 rounded-xl px-2 text-sm">!</div> Due to
               high patient volume, we are currently accepting appointments for
               today only. We appreciate your understanding and cooperation.
             </div>
             <div>
-              <button onClick={handleBooking} className="w-full bg-blue-500 text-white font-bold p-2 rounded-3xl lg:text-xl md:text-xl mt-8 cursor-pointer">
+              <button onClick={handleBooking} className="w-full bg-blue-500 text-white font-bold p-3 rounded-3xl lg:text-xl md:text-xl mt-8 cursor-pointer">
                 Book Appointment Now
               </button>
             </div>

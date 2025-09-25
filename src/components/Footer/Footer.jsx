@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
     <div className="text-black">
-      <footer className="footer footer-horizontal footer-center bg-white text-black-content rounded p-10">
+      <footer className="footer footer-horizontal footer-center bg-white text-black-content rounded p-10 mt-25">
         <div className="flex">
           <img src={logo} alt="" />
           <h1 className="text-2xl font-bold">DocTime</h1>

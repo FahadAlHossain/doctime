@@ -10,8 +10,13 @@ export const BookingProvider = ({children}) => {
             prev.find(d => d.regNo === doctor.regNo) ? prev : [...prev, doctor]
         ))
     }
+    const cancelBooking = (regNo) => {
+        setBookings(prev => (
+            prev.filter(d => d.regNo !== regNo)
+        ))
+    } 
     return (
-        <BookingContext.Provider value={{bookings, addBooking}}>
+        <BookingContext.Provider value={{bookings, addBooking, cancelBooking}}>
             {children}
         </BookingContext.Provider>
     )
