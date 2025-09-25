@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="text-black container mx-auto py-3">
+    <nav className="text-black lg:container md:w-[95%] w-[95%] mx-auto py-3">
       <div className="navbar bg-gray-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -56,13 +56,13 @@ const Navbar = () => {
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="px-4">
+            <li className="pl-4">
               <NavLink to='/booking'>My Bookings</NavLink>
             </li>
-            <li>
+            <li className="pl-4">
               <NavLink to='/blogs'>Blogs</NavLink>
             </li>
-            <li className="px-4">
+            <li className="pl-4">
               <NavLink to='/contact'>Contact Us</NavLink>
             </li>
           </ul>

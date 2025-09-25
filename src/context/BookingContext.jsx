@@ -7,7 +7,7 @@ export const BookingProvider = ({children}) => {
 
     const addBooking = (doctor) => {
         setBookings(prev => (
-            prev.some(d => d.regNo === doctor.regNo) ? prev : [...prev, doctor]
+            prev.find(d => d.regNo === doctor.regNo) ? prev : [...prev, doctor]
         ))
     }
     return (
