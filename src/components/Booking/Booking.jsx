@@ -35,7 +35,7 @@ const Booking = () => {
   }));
 
   return (
-    <div className="text-black">
+    <div className="text-black h-screen">
       {bookings.length === 0 ? (
         <div className="bg-white lg:container md:w-[90%] w-[90%] mx-auto p-8 rounded-3xl shadow-sm my-5">
           <h1 className="text-5xl font-bold text-center">No bookings yet</h1>

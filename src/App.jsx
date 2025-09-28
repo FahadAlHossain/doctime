@@ -11,6 +11,7 @@ import Booking from "./components/Booking/Booking";
 import Blog from "./components/Blog/Blog";
 import { doctorDetailsLoader, doctorLoader } from "./utilis/loadData";
 import DoctorDetails from "./components/DoctorDetails/DoctorDetails";
+import Error from "./components/Error/Error";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -24,6 +25,7 @@ const App = () => {
         ></Route>
         <Route path="booking" Component={Booking}></Route>
         <Route path="blogs" Component={Blog}></Route>
+        <Route path="*" element={<Error/>}></Route>
       </Route>
     )
   );
