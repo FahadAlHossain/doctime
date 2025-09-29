@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Telemedicine",
+    "author": "Dr. Sarah Ahmed",
+    "date": "2025-09-20",
+    "category": "Healthcare",
+    "excerpt": "Telemedicine is rapidly transforming healthcare by making medical services more accessible...",
+    "content": "With the rise of high-speed internet and advanced diagnostic tools, telemedicine is bridging the gap between doctors and patients across distances. This article explores its benefits, challenges, and what the future holds."
+  },
+  {
+    "id": 2,
+    "title": "AI in Medical Diagnostics",
+    "author": "Dr. James Lee",
+    "date": "2025-09-15",
+    "category": "Technology",
+    "excerpt": "Artificial Intelligence is being integrated into healthcare to improve diagnostics accuracy...",
+    "content": "AI tools can analyze X-rays, MRIs, and patient data faster than traditional methods. Doctors now use AI as a supportive tool for faster and more reliable diagnosis, but ethical concerns remain."
+  },
+  {
+    "id": 3,
+    "title": "Top 10 Tips for Healthy Living",
+    "author": "Dr. Ayesha Khan",
+    "date": "2025-09-10",
+    "category": "Lifestyle",
+    "excerpt": "Simple daily habits can have a big impact on your long-term health and well-being...",
+    "content": "From eating balanced meals to maintaining a regular sleep schedule, this blog covers 10 essential lifestyle habits that help you stay fit, energetic, and stress-free."
+  },
+  {
+    "id": 4,
+    "title": "Mental Health Awareness",
+    "author": "Dr. Michael Brown",
+    "date": "2025-09-05",
+    "category": "Wellness",
+    "excerpt": "Mental health is just as important as physical health, but often overlooked...",
+    "content": "This article discusses common mental health issues like anxiety and depression, and how early intervention, therapy, and open conversations can help people lead better lives."
+  },
+  {
+    "id": 5,
+    "title": "Nutrition Facts You Didn’t Know",
+    "author": "Dr. Priya Mehta",
+    "date": "2025-09-01",
+    "category": "Nutrition",
+    "excerpt": "Did you know that some so-called 'healthy' foods might not be as good for you?...",
+    "content": "We break down common nutrition myths, explain hidden sugars, and share scientifically backed facts about food choices to help you eat smarter."
+  }
+]

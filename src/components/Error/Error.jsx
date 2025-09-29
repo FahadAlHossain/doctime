@@ -1,21 +1,20 @@
 import React from "react";
-import { useRouteError, Link } from "react-router";
+import { useRouteError, Link} from "react-router";
 
 const ErrorPage = () => {
   const error = useRouteError();
   console.error(error);
 
-  // Ensure we get a readable message
   const errorMessage =
     error?.statusText ||
     error?.message ||
     (typeof error === "string" ? error : "Page not found");
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center text-center">
       <h1 className="text-6xl font-bold text-red-500 mb-4">404</h1>
       <p className="text-lg text-gray-600 mb-3">
-        {String(errorMessage)} {/* ✅ force convert to string */}
+        {String(errorMessage)}
       </p>
       <Link
         to="/"

@@ -20,3 +20,11 @@ export const doctorDetailsLoader = async ({params}) => {
     }
     return doctor;
 }
+
+export const blogData = async () => {
+    const res = await fetch('/blog.json')
+    if(!res.ok){
+        throw Error("Blogs not Found!")
+    }
+    return res.json();
+}

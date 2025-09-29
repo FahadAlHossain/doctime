@@ -10,8 +10,8 @@ const DoctorDetails = () => {
 
   const handleBooking = () => {
     addBooking(doctor);
-    alert(`${doctor.name} added`);
   };
+
   return (
     <div className="text-black">
       <div className="w-[90%] mx-auto h-64 bg-white rounded-3xl my-8 flex items-center justify-center shadow-sm">

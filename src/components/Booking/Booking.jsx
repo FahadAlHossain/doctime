@@ -35,9 +35,9 @@ const Booking = () => {
   }));
 
   return (
-    <div className="text-black h-screen">
+    <div className="text-black">
       {bookings.length === 0 ? (
-        <div className="bg-white lg:container md:w-[90%] w-[90%] mx-auto p-8 rounded-3xl shadow-sm my-5">
+        <div className="bg-white w-[90%] mx-auto p-8 rounded-3xl shadow-sm my-5">
           <h1 className="text-5xl font-bold text-center">No bookings yet</h1>
           <p className="text-center font-semibold text-lg text-slate-500 my-3">
             Get Your Appointments now
@@ -45,7 +45,7 @@ const Booking = () => {
         </div>
       ) : (
         <div>
-          <div className="text-center w-[90%] mx-auto">
+          <div className="text-center w-[80%] mx-auto">
             <h1 className="lg:text-4xl md:text-3xl text-2xl font-bold mt-8">
               My Today Appointments
             </h1>
@@ -55,7 +55,7 @@ const Booking = () => {
             </p>
           </div>
 
-          <div className="bg-white lg:container md:w-[90%] w-[90%] mx-auto p-8 rounded-3xl shadow-sm my-5">
+          <div className="bg-white w-[90%] mx-auto p-8 rounded-3xl shadow-sm my-5">
             <h2 className="text-xl font-bold mb-4">Consultation Fees</h2>
             <ResponsiveContainer width="100%" height={300}>
               <BarChart
@@ -84,7 +84,7 @@ const Booking = () => {
           {bookings.map((doc) => (
             <div
               key={doc.regNo}
-              className="bg-white h-fit lg:container md:w-[90%] w-[90%] py-6 mx-auto my-10 rounded-3xl shadow-sm"
+              className="bg-white h-fit w-[90%] py-6 mx-auto my-10 rounded-3xl shadow-sm"
             >
               <div className="flex items-center justify-between w-[80%] mx-auto">
                 <div className="mb-2">
