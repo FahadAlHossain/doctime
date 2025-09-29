@@ -18,7 +18,7 @@ const Doctors = () => {
           receive quality care you can trust.
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 lg:container md:w-[95%] w-[80%] mx-auto">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 md:w-[90%] w-[80%] mx-auto">
         {displayData.map((doc, idx) => (
           <div key={idx} className="card bg-white w-full shadow-sm rounded-3xl">
             <figure>

@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="text-black lg:container md:w-[95%] w-[95%] mx-auto py-3">
+    <nav className="text-black md:w-[90%] w-[95%] mx-auto py-3">
       <div className="navbar bg-gray-100">
         <div className="navbar-start">
           <div className="dropdown">
