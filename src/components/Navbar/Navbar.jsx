@@ -53,16 +53,16 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu-horizontal px-1 text-lg font-semibold">
-            <li>
+            <li className="hover:text-blue-600 hover:text-xl">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="pl-4">
+            <li className="pl-4 hover:text-blue-600 hover:text-xl">
               <NavLink to='/booking'>My Bookings</NavLink>
             </li>
-            <li className="pl-4">
+            <li className="pl-4 hover:text-blue-600 hover:text-xl">
               <NavLink to='/blogs'>Blogs</NavLink>
             </li>
-            <li className="pl-4">
+            <li className="pl-4 hover:text-blue-600 hover:text-xl">
               <NavLink to='/contact'>Contact Us</NavLink>
             </li>
           </ul>

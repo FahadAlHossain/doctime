@@ -11,10 +11,10 @@ const Footer = () => {
           <h1 className="text-2xl font-bold">DocTime</h1>
         </div>
         <nav className="grid grid-flow-col gap-4 text-lg font-medium">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/booking">My Bookings</NavLink>
-          <NavLink to="/blogs">Blogs</NavLink>
-          <NavLink to="/contact">Contact US</NavLink>
+          <NavLink className="hover:text-blue-600 hover:text-xl" to="/">Home</NavLink>
+          <NavLink className="hover:text-blue-600 hover:text-xl" to="/booking">My Bookings</NavLink>
+          <NavLink className="hover:text-blue-600 hover:text-xl" to="/blogs">Blogs</NavLink>
+          <NavLink className="hover:text-blue-600 hover:text-xl" to="/contact">Contact US</NavLink>
         </nav>
         <hr className="border-b-0 w-[70%] border-t-slate-400"/>
         <nav>
