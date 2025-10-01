@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLoaderData } from "react-router";
+import docImg from "../../assets/doctor.png"
 
 const Doctors = () => {
   const doctorsData = useLoaderData();
@@ -22,7 +23,7 @@ const Doctors = () => {
         {displayData.map((doc, idx) => (
           <div key={idx} className="card bg-white w-full shadow-sm rounded-3xl">
             <figure>
-              <img className="w-[80%] mt-7" src={doc.img} alt="" />
+              <img className="w-[80%] mt-7" src={docImg} alt="" />
             </figure>
             <div className="card-body">
               <div className="card-actions justify-start">
