@@ -18,16 +18,16 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" Component={Root}>
-        <Route index Component={Home} loader={doctorLoader}></Route>
+      <Route path="/" element={<Root/>}>
+        <Route index element={<Home/>} loader={doctorLoader}></Route>
         <Route
           path="doctor/:regNo"
-          Component={DoctorDetails}
+          element={<DoctorDetails/>}
           loader={doctorDetailsLoader}
           errorElement={<Error />}
         ></Route>
-        <Route path="booking" Component={Booking}></Route>
-        <Route path="blogs" Component={Blog} loader={blogData}></Route>
+        <Route path="booking" element={<Booking/>}></Route>
+        <Route path="blogs" element={<Blog/>} loader={blogData}></Route>
         <Route path="*" element={<Error />}></Route>
       </Route>
     )

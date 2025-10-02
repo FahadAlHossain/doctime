@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLoaderData } from "react-router";
-import docImg from "../../assets/doctor.png";
+import docImg from "../../assets/doctor.png"
 
 const Doctors = () => {
   const doctorsData = useLoaderData();
@@ -41,13 +41,8 @@ const Doctors = () => {
                 {doc.qualification[0]} {doc.qualification[1]}
               </p>
               <hr className="border-t-2 border-dashed border-slate-400" />
-              <p className="lg:text-lg md:text-lg text-sm">
-                Reg No: {doc.regNo}
-              </p>
-              <Link
-                to={`/doctor/${doc.regNo}`}
-                className="border-2 hover:bg-blue-500 hover:text-white border-blue-500 rounded-2xl p-2 text-blue-500 font-bold text-center"
-              >
+              <p className="lg:text-lg md:text-lg text-sm">Reg No: {doc.regNo}</p>
+              <Link to={`/doctor/${doc.regNo}`} className="border-2 hover:bg-blue-500 hover:text-white border-blue-500 rounded-2xl p-2 text-blue-500 font-bold text-center">
                 View Details
               </Link>
             </div>
